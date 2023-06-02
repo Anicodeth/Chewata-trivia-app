@@ -1,0 +1,162 @@
+
+body{
+margin:0px;
+font-family: monospace;
+color: White;
+background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+
+.brand-navigation {
+
+background:linear-gradient(  rgb(21, 18, 51),rgb(48, 43, 99));
+display: flex;
+justify-content: center;
+height:5rem;
+z-index:100;
+}
+
+.content-menu {
+width:1400px;
+height: 54px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 0.5rem;
+}
+
+.navigation {
+list-style: none;
+margin: 0;
+display: flex;
+justify-content: flex-end;
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+font-size: 13px;
+}
+
+.navigation a {
+text-decoration: none;
+padding: 3em;
+color: #dbdbe2;
+}
+
+.logo-nav {
+max-width: 100px;
+}
+
+.button-dark {
+height: 28x;
+padding: 1px 20px;
+border-radius: 4px;
+background: linear-gradient(to right, #016062 0%, #4a5e8c 44%, #4a5e8c 49%, #4a5e8c 57%, #744a9e 100%);
+border-style: none;
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+color: #FFFFFF;	
+font-size: 13px;	
+line-height: 26px;
+margin-right:12rem;
+}
+
+
+.landing-page {
+background-image: url('../assets/birr.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+width:100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.content {
+
+background:linear-gradient(  rgba(21, 18, 51,0.9),rgba(48, 43, 99, 0.7));
+padding: 20px;
+height:98%;
+width:100%;
+text-align: center;
+
+}
+h1{
+font-size: 3rem;
+margin-top:13rem;
+}
+
+p{
+font-size: 1rem;
+}
+.logo{
+font-size: 4rem;
+font-family:'Courier New' !important;
+}
+.redirect{
+padding: 1.5em 4em;
+color: rgba(#fff,.7);
+text-align: center;
+background-color: transparent;
+font-size: 1.1em;
+transition: 0.3s;
+border:none;
+background: linear-gradient(to right, #016062 0%, #4a5e8c 44%, #4a5e8c 49%, #4a5e8c 57%, #744a9e 100%);
+border-radius:1rem;
+color:white;
+
+
+}
+.card-content {
+
+font-size: 1.2rem;
+display: flex;
+justify-content: space-between;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 1200px;
+height: 400px;
+padding: 20px;
+text-align: center;
+
+}
+
+.card {
+
+color: white;
+
+display:inline;
+border-radius: 7px;
+padding: 10px;
+width: 340px;
+height: 380px;
+background-color: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(3px);
+border: 2px solid rgba(255, 255, 255, 0.1);
+box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.03);
+transition: 0.2s ease-in-out;
+
+}
+
+.card:hover {
+transform: scale(1.03);
+}
+
+.card:hover .avatar {
+transform: scale(1.1);
+object-position: 50% 65%;
+}
+
+.details {
+margin-top: -15px;
+font-family: monospace !important;
+font-size: larger;
+padding: 2rem;
+}
+
+.details p {
+font-size: 1.2rem;
+}
